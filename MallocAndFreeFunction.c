@@ -3,7 +3,9 @@
 
 //////////////////////////////////////////////////////////////////////////////////////
 //Description:This program Demonstrate the concept of Malloc and Free Function in C programming
-//Author:Kishan Jawale
+//malloc- Malloc function alloactes the menory for required variable at run time 
+//free- free function deallocate the memory allocated by the malloc function
+//@Author:Kishan Jawale
 //Date: 30/03/2022
 ///////////////////////////////////////////////////////////////////////////////////////
 
@@ -11,7 +13,7 @@ int main()
 {
     int  iSize = 0;
     int *ptr= NULL;  //initializing the pointer to NULL
-    printf("enter the number of elements ");
+    printf("enter the number of elementsgcc ma ");
     scanf("%d",&iSize);  //Accepts the no of interger for memory allocation 
 
 
